@@ -69,8 +69,3 @@ The application uses ASP.NET Core Razor Pages with a simple form that posts to t
 - ASP.NET Core 8.0
 - Razor Pages
 - Bootstrap 5
-- Entity Framework Core (for future enhancements)
-
-## License
-
-This project is open source and available under the MIT License.
