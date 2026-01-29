@@ -27,6 +27,9 @@ public class IndexModel : PageModel
 
     public IActionResult OnPost()
     {
+        _logger.LogInformation("OnPost called with FileName: {FileName}, NoteContent: {NoteContent}", 
+            FileName ?? "(null)", NoteContent ?? "(null)");
+
         if (string.IsNullOrWhiteSpace(FileName))
         {
             FileName = $"notes_{DateTime.Now:yyyyMMdd_HHmmss}";
@@ -42,6 +45,8 @@ public class IndexModel : PageModel
         {
             FileName += ".txt";
         }
+
+        _logger.LogInformation("Processing file download: {FileName}", FileName);
 
         // Convert content to bytes
         var contentBytes = Encoding.UTF8.GetBytes(NoteContent);

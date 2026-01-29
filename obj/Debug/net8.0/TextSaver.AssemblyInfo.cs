@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TextSaver")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4edd6869e09c83c44fb9b2c88e4c80b38fc3a693")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec5a46028ad371e749b9459ea19f8bf0a3f84d14")]
 [assembly: System.Reflection.AssemblyProductAttribute("TextSaver")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TextSaver")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

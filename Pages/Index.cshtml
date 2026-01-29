@@ -12,7 +12,7 @@
                     <h1 class="h3 mb-0">Text Saver</h1>
                 </div>
                 <div class="card-body">
-                    <form method="post">
+                    <form method="post" asp-page="/Index">
                         <div class="mb-3">
                             <label for="fileName" class="form-label">File Name:</label>
                             <input type="text" class="form-control" id="fileName" name="FileName" value="@Model.FileName" placeholder="Enter file name (without .txt)">

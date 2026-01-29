@@ -28,3 +28,4 @@
 /home/clawdbot/clawd/text-saver/obj/Debug/net8.0/TextSaver.pdb
 /home/clawdbot/clawd/text-saver/obj/Debug/net8.0/TextSaver.genruntimeconfig.cache
 /home/clawdbot/clawd/text-saver/obj/Debug/net8.0/ref/TextSaver.dll
+/home/clawdbot/clawd/text-saver/obj/Debug/net8.0/TextSaver.sourcelink.json
